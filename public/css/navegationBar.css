@@ -1,0 +1,258 @@
+.mainContainer { 
+    height: 100%; /* El contenedor ocupa toda la altura de la pantalla */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-bar{
+    margin-top: 70px;
+}
+.itemsNav{
+    list-style: none;
+    width: 150px; /* Ancho de la barra de navegación */
+    padding: 0;
+}
+.menuIcon{
+  display: none;
+}
+.itemsNav a{
+    text-decoration: none;
+    font-weight: bolder;
+    display: flex;
+    
+}
+.itemsNav li a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+}
+.itemsNav li a:hover{
+    background-color: #fff;
+    margin-left: 10px;
+}
+.linkInicio{
+    background-color: turquoise;
+    color:  #333;
+}
+.itemsNav li a i{
+   margin-left: 10px;
+}
+.itemsNav li a span{
+    margin-right: 10px;
+}
+#dark-mode{
+    margin-bottom: 30px;
+}
+html{
+    transition: all 0.5s;
+}
+.dark-mode{
+    filter: invert(100%);
+    transition: all 0.5s;
+}
+.dark-mode img{
+    filter: invert(100%);
+}
+.dark-mode .switch{
+    filter: invert(100%);
+}
+
+/* NAV CORTO */
+.arrowReducer{
+    position: absolute;
+    top: 3%;
+    right: -14px;
+    transform: translateY(-50%) rotate(180deg);
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.arrowOpen{
+    transform: translateY(-50%) rotate(0deg);
+}
+
+.itemsNavChica{
+    width: 70px;  
+}
+.itemsNavChica li a span{
+    display: none;
+}
+
+.mainContainerChica { 
+    width: 70px;
+}
+/* BLACK MODE */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 64px;
+    height: 34px;
+    margin-bottom: 25px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #73C0FC;
+    transition: .4s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    left: 2px;
+    bottom: 2px;
+    z-index: 2;
+    background-color: #e8e8e8;
+    transition: .4s;
+  }
+  
+  .sun svg {
+    position: absolute;
+    top: 6px;
+    left: 36px;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .moon svg {
+    fill: #73C0FC;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* .switch:hover */.sun svg {
+    animation: rotate 15s linear infinite;
+  }
+  
+  @keyframes rotate {
+   
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* .switch:hover */.moon svg {
+    animation: tilt 5s linear infinite;
+  }
+  
+  @keyframes tilt {
+   
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    25% {
+      transform: rotate(-10deg);
+    }
+  
+    75% {
+      transform: rotate(10deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .input:checked + .slider {
+    background-color: #183153;
+  }
+  
+  .input:focus + .slider {
+    box-shadow: 0 0 1px #183153;
+  }
+  
+  .input:checked + .slider:before {
+    transform: translateX(30px);
+  }
+/* END BLACK MODE */
+
+/* REPONSIVE */
+
+/* PHONE AND TABLET*/
+@media (max-width:1024px) {
+  .mainContainer { 
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.menu-bar{
+    margin-top: 70px;
+}
+.itemsNav{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left: -150px;
+    top: 61px;
+    background-color: #333;
+    transition: all .5s;
+}
+.itemsNav.hiden{
+  left: 0px;
+}
+.arrowReducer{
+  visibility: hidden;
+}
+.switch{
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.menuIcon{
+  height: 128%;
+  width: 10%;
+  font-size: 2.3rem;
+  margin-top: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: block;
+}
+}

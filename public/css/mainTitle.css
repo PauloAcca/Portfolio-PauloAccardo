@@ -1,0 +1,247 @@
+.presentationContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.saludo1{
+    font-size:4rem;
+}
+.saludo2{
+    font-size:3rem;
+}
+.presentacion{
+    font-size:5rem;
+}
+.presentacion1{
+    font-size:5rem;
+}
+.presentacion2{
+    font-size:4rem;
+}
+.imageTitle{
+    width: 445px;
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+}
+.imageTitle img{
+    flex-basis: 579px;
+}
+/* NOMBRE EFFECT */
+.containerName{
+    height: 114px;
+    display: flex;
+    font-size: 35px;
+    line-height: 112px;
+    overflow: hidden;
+}
+.presentacion, .nameVuelta{
+    margin: 0;
+}
+.presentacion{
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+.nameVuelta{
+    list-style: none;
+    position: relative;
+    animation: movimiento 7s infinite;
+}
+.nameVuelta li{
+    background-image: linear-gradient(90deg, #ed0de2, #ff0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 5px;
+    letter-spacing: 1px;
+}
+@keyframes movimiento {
+    0%{top: 0;}
+
+    25%{top: -105px;}
+
+    50%{top: -105px;}
+
+    75%{top: 0px;}
+
+    100%{top: 0;}
+}
+/* END NOMBRE EFFECT */
+/* LIGHT EFFECT W */
+.lightEffectW{
+    display: flex;
+}
+.lightEffectW li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    letter-spacing: 15px;
+    text-shadow: none;
+    animation: animate 1s infinite linear;
+}
+@keyframes animate{
+    0%{
+        color: #484848;
+        text-shadow: none;
+    }
+    18%{
+        color: #484848;
+        text-shadow: none;
+    }
+    20%{
+        color: #fff900;
+        text-shadow:0 0 7px #fff900, 0 0 20px #ff6c00;
+    }
+    30%{
+        color: #484848;
+        text-shadow: none;
+    }
+    35%{
+        color: #fff900;
+        text-shadow:0 0 7px #fff900, 0 0 20px #ff6c00;
+    }
+    70%{
+        color: #484848;
+        text-shadow: none;
+    }
+    85%{
+        color: #fff900;
+        text-shadow:0 0 7px #fff900, 0 0 20px #ff6c00;
+    }
+    90%{
+        color: #484848;
+        text-shadow: none;
+    }
+    100%{
+        color: #484848;
+        text-shadow: none;
+    }
+}
+.lightEffectW li:nth-child(1){
+    animation-delay:.2s;
+}
+.lightEffectW li:nth-child(2){
+    animation-delay:.4s;
+}
+.lightEffectW li:nth-child(3){
+    animation-delay:.6s;
+}
+.lightEffectW li:nth-child(4){
+    animation-delay:.8s;
+}
+.lightEffectW li:nth-child(5){
+    animation-delay:1s;
+}
+.lightEffectW li:nth-child(6){
+    animation-delay:1.2s;
+}
+.lightEffectW li:nth-child(7){
+    animation-delay:1.4s;
+}
+/* END LIGHT EFFECT W */
+
+/* RESPONSIVE */
+/* PHONE */
+@media (max-width:724px) {
+    .presentationContainer{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .containerName{
+        flex-direction: column;
+        line-height: 30px;
+        height: 86px;
+        justify-content: space-between;
+        overflow: visible;
+    }
+    .presentacion{
+        margin-top: 60px;
+    }
+    .presentacion, .presentacion2, .presentacion1{
+        font-size:2rem
+    }
+    .nameVuelta li{
+        margin-top: 15px;
+    }
+    .nameVuelta {
+        height: 50px;
+        animation: 0;
+        margin-left: -40px;
+    }
+    .palabras{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lightEffectW{
+        margin-left: 0px;
+        margin-top: 58px;
+        display: flex;
+        justify-content: center;
+    }
+    .lightEffectW li{
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        letter-spacing: 15px;
+        text-shadow: none;
+        animation: animate 1s infinite linear;
+    }
+    .saludo2{
+        font-size: 2rem;
+    }
+    .imageTitle{
+        width: 190px;
+        height: 134px;
+        display: flex;
+    }
+    .imageTitle img{
+        flex-basis: 579px;
+    }
+    .bienvenida{
+        width: 100%;
+    }
+}
+
+/* LAPTOP */
+@media (min-width:724px) and (max-width:1280px) {
+    .lightEffectW{
+        justify-content: center;
+    }
+    .presentacion{
+        font-size: 3rem;
+    }
+    .presentacion1{
+        font-size: 3.5rem;
+    }
+    .presentacion2{
+        font-size: 2rem;
+    }
+    .containerName{
+        line-height: 95px;
+        
+    }
+    .imageTitle{
+        width: 304px;
+        height: 226px;
+        display: flex;
+        flex-direction: column;
+    }
+    .imageTitle img{
+        flex-basis: 579px;
+    }
+}
+@media (min-width:1024px) and (max-width:1700px){
+    .presentationContainer{
+        margin-left: 8%;
+    }
+}
