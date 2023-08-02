@@ -1,4 +1,6 @@
 import '../../public/css/navegationBar.css'
+import React from 'react';
+import {Link} from 'react-router-dom'
 export const NavegationBar = () =>{
 
   const blackMode = (e)=>{
@@ -31,45 +33,45 @@ export const NavegationBar = () =>{
 
           <ul className='itemsNav'>
             <li className='linkInicio'>
-              <a href="">
-                <i class="fas fa-home fa-lg"></i>
+              <Link to='/'>
+                <i className="fas fa-home fa-lg"></i>
                 <span className='textNav'>Inicio</span>
-              </a>
+              </Link>
             </li>
 
             <li className=''>
-              <a href="">
-                <i class="fas fa-info fa-lg"></i>
+              <Link to='/sobreMi'>
+                <i className="fas fa-info fa-lg"></i>
                 <span className='textNav'>Sobre Mi</span>
-              </a>
+              </Link>
             </li>
 
             <li className=''>
-              <a href="">
-                <i class="fas fa-book fa-lg"></i>
-                <span className='textNav'>Porfolio</span>
-              </a>
+              <Link to='/portfolio'>
+                <i className="fas fa-book fa-lg"></i>
+                <span className='textNav'>Portfolio</span>
+              </Link>
             </li>
 
             <li className=''>
-              <a href="">
-                <i class="fas fa-graduation-cap fa-lg"></i>
+              <Link to='/educacion'>
+                <i className="fas fa-graduation-cap fa-lg"></i>
                 <span className='textNav'>Educacion</span>
-              </a>
+              </Link>
             </li>
 
             <li className=''>
-              <a href="">
-                <i class="fas fa-user-astronaut fa-lg"></i>
+              <Link to='/skills'>
+                <i className="fas fa-user-astronaut fa-lg"></i>
                 <span className='textNav'>Skills</span>
-              </a>
+              </Link>
             </li>
 
             <li className=''>
-              <a href="">
-                <i class="fas fa-phone fa-lg"></i>
+              <Link to='/contacto'>
+                <i className="fas fa-phone fa-lg"></i>
                 <span className='textNav'>Contacto</span>
-              </a>
+              </Link>
             </li>
 
           </ul>

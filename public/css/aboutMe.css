@@ -1,0 +1,94 @@
+.containerAbout{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    gap: 145px;
+}
+.aboutInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 57px;
+}
+.mainText{
+    text-align: left;
+}
+.contactText{
+    background-image: linear-gradient(90deg, #ed0de2, #00dbde);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 5px;
+    letter-spacing: 1px;
+    font-weight:bold;
+}
+/* PHOTO CARD */ 
+.card {
+    --background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    width: 416px;
+    height: 254px;
+    padding: 5px;
+    border-radius: 1rem;
+    overflow: visible;
+    background:#00dbde;
+    background: var(--background);
+    position: relative;
+    z-index: 1;
+   }
+   
+   .card::after {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    transform: scale(1);
+    filter: blur(25px);
+    background:#00dbde;
+    background: var(--background);
+    transition: opacity .5s;
+   }
+   
+   .card-info {
+    --color: #181818;
+    background: var(--color);
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    border-radius: .7rem;
+   }
+   
+   .card .title {
+    font-weight: bold;
+    letter-spacing: .1em;
+   }
+   
+   /*Hover*/
+   .card:hover::after {
+    opacity: 0;
+   }
+   
+   .card:hover .card-info {
+    color: #f7ba2b;
+    transition: color 1s;
+   }
+   
+/* END PHOTO CARD */
+
+@media (max-width:720px) {
+    .containerAbout{
+        flex-direction: column;
+        margin-top: 90px;
+    }
+}
+@media (min-width:721px) and (max-width:1628px) {
+    .containerAbout{
+        margin-left: 14%;
+    }
+}

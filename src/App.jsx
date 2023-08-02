@@ -7,10 +7,11 @@ import { Header } from "./components/header";
 import { Email } from "./components/email";
 import { NavegationBar } from "./components/navegationBar";
 import { MainTitle } from "./components/mainTitle";
+import { AboutMe } from "./components/aboutMe";
 // Cierro componentes
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   const dispatch = useDispatch();
@@ -24,8 +25,14 @@ function App() {
 
   return (
     <div className="App">
-      <NavegationBar />
-      <MainTitle />
+      <BrowserRouter>
+        <NavegationBar />
+        <Routes>
+          <Route exact path="/"  Component={MainTitle}/>
+          <Route path="/sobreMi"  Component={AboutMe}/>
+        </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 }
