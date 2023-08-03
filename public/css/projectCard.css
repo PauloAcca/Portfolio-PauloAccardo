@@ -1,0 +1,102 @@
+.containerCards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.containerIcons{
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin-bottom: 10px;
+}
+.containerIcons div img{
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 20px;
+}
+/* CARD */
+.cardProject {
+  width: 24em;
+  height: 26.5em;
+  background: #171717;
+  transition: 1s ease-in-out;
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardProject span {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+}
+
+.cardProject .info {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 0.72em;
+  margin: 1em;
+}
+
+.cardProject .img {
+  
+  background: white;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.cardProject .share {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.cardProject a {
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+.cardProject a:hover {
+  color: red;
+}
+
+.cardProject button {
+  padding: 0.8em 1.7em;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: .4s ease-in-out;
+}
+
+.cardProject button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+/* END CARD */
+@media (max-width:800px) {
+  .containerCard {
+    width: 100%;
+    height: calc(100%-175px);
+  }
+}
+@media (min-width:800px) and (max-width:1024px) {
+  .containerCard {
+    width: 35%;
+    height: 100%;
+  }
+}
+

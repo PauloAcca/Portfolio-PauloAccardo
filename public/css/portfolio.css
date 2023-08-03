@@ -1,0 +1,16 @@
+.mainContainerProjects{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.containerProjects{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 95px;
+}
+
+.mainContainerProjects hr{
+    color: red;
+}

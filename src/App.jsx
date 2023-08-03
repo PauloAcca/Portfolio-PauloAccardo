@@ -8,6 +8,7 @@ import { Email } from "./components/email";
 import { NavegationBar } from "./components/navegationBar";
 import { MainTitle } from "./components/mainTitle";
 import { AboutMe } from "./components/aboutMe";
+import { Portfolio } from "./components/portfolio";
 // Cierro componentes
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -30,6 +31,7 @@ function App() {
         <Routes>
           <Route exact path="/"  Component={MainTitle}/>
           <Route path="/sobreMi"  Component={AboutMe}/>
+          <Route path="/portfolio"  Component={Portfolio}/>
         </Routes>
       </BrowserRouter>
       

@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    z-index: 20;
 }
 .menu-bar{
     margin-top: 70px;
@@ -39,7 +40,7 @@
     margin-left: 10px;
 }
 .linkInicio{
-    background-color: turquoise;
+    background-color:  #333;
     color:  #333;
 }
 .itemsNav li a i{
@@ -61,6 +62,22 @@ html{
 .dark-mode img{
     filter: invert(100%);
 }
+.dark-mode .containerAstronauta{
+  filter: invert(100%);
+}
+.dark-mode .box-of-star1{
+  display: none;
+}
+.dark-mode .box-of-star2{
+  display: none;
+}
+.dark-mode .box-of-star3{
+  display: none;
+}
+.dark-mode .box-of-star4{
+    display: none;
+  }
+
 .dark-mode .switch{
     filter: invert(100%);
 }
