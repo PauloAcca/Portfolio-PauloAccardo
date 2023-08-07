@@ -21,7 +21,7 @@ export const AboutMe = ()=>{
                 <div className='containerImg'>
                     <div className="card">
                         <div className="card-info">
-                            <img className='img-fluid' src="/Portfolio-PauloAccardo/../../public/img/imagen-perfil.jpg" alt=""/>
+                            <img className='img-fluid' src="/Portfolio-PauloAccardo/public/img/Imagen-Perfil.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
