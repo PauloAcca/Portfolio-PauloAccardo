@@ -17,10 +17,17 @@
     flex-wrap: wrap;
     gap: 20px;
 }
-.divImgsSkills{
+.divImgsSkills {
     width: 75px;
     height: 75px;
-    background-image: url(https://github.com/PauloAcca/Portfolio-PauloAccardo/blob/main/public/img/icons/iconPostMan.png);
+    background-image: url(../img/icons/iconPostMan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.divImgsSkills img{
+    width: 75px;
+    height: 75px;
     margin-bottom: 10px;
 }
 .divImgsSkills i{

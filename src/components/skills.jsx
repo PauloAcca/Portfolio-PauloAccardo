@@ -65,7 +65,7 @@ export const Skills = ()=>{
                         <p>Git</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'></div>
+                        <div className='divImgsSkills post'></div>
                         <p>PostMan</p>
                     </div>
                 </div>
