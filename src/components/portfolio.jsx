@@ -8,7 +8,9 @@ export const Portfolio = ()=>{
 
     return (
         <section className='mainContainerProjects'>
-            <h3 className='text-light '>My Projects</h3>
+            <div class="neon">
+                My Projects
+            </div>
             <div>
                 <section className='containerProjects'>
                     <ProjectCard/>

@@ -24,7 +24,7 @@ export const NavegationBar = () =>{
     itemsNav.classList.toggle('hiden')
   }
   return (
-    <nav className="text-primary mainContainer">
+    <nav className="text-warning mainContainer">
       <div className='menuIcon' onClick={hideNav}><i className="fas fa-bars "></i></div>
       <i className="fas fa-chevron-right arrowReducer" onClick={navCorta}></i> 
 
@@ -52,18 +52,18 @@ export const NavegationBar = () =>{
                 <span className='textNav'>Portfolio</span>
               </Link>
             </li>
+            
+            <li className=''>
+              <Link to='/skills'>
+                <i className="fas fa-user-astronaut fa-lg"></i>
+                <span className='textNav'>Skills</span>
+              </Link>
+            </li>
 
             <li className=''>
               <Link to='/educacion'>
                 <i className="fas fa-graduation-cap fa-lg"></i>
                 <span className='textNav'>Educacion</span>
-              </Link>
-            </li>
-
-            <li className=''>
-              <Link to='/skills'>
-                <i className="fas fa-user-astronaut fa-lg"></i>
-                <span className='textNav'>Skills</span>
               </Link>
             </li>
 

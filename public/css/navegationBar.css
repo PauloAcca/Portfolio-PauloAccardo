@@ -36,9 +36,14 @@
     justify-content: space-between;
 }
 .itemsNav li a:hover{
-    background-color: #fff;
-    margin-left: 10px;
+    background-color: #333;
+    margin-left: 20px;
+    border-left: 2px solid white;
 }
+.itemsNav li i{
+  color: #ff6c00;
+}
+
 .linkInicio{
     background-color:  #333;
     color:  #333;
@@ -65,6 +70,9 @@ html{
 .dark-mode .containerAstronauta{
   filter: invert(100%);
 }
+.dark-mode svg{
+  filter: invert(100%);
+}
 .dark-mode .box-of-star1{
   display: none;
 }
@@ -81,7 +89,9 @@ html{
 .dark-mode .switch{
     filter: invert(100%);
 }
-
+.textNav{
+  color: white;
+}
 /* NAV CORTO */
 .arrowReducer{
     position: absolute;

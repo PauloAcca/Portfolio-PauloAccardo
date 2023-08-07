@@ -5,7 +5,7 @@ export const AboutMe = ()=>{
 
     return (
         <React.Fragment>
-            <div className='text-light containerAbout container '>
+            <div className='text-light containerAbout  '>
                 <div className='aboutInfo well '>
                     <h2>About Me</h2>
                     <p className='lead mainText'>
@@ -19,12 +19,11 @@ export const AboutMe = ()=>{
                 </div>
                 
                 <div className='containerImg'>
-                    <div class="card">
-                        <div class="card-info">
+                    <div className="card">
+                        <div className="card-info">
                             <img className='img-fluid' src="../../public/img/Imagen-Perfil.jpg" alt=""/>
                         </div>
                     </div>
-                   
                 </div>
             </div>
         </React.Fragment>

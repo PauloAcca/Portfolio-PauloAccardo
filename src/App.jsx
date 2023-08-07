@@ -9,6 +9,9 @@ import { NavegationBar } from "./components/navegationBar";
 import { MainTitle } from "./components/mainTitle";
 import { AboutMe } from "./components/aboutMe";
 import { Portfolio } from "./components/portfolio";
+import { Skills } from "./components/skills";
+import { Educacion } from "./components/educacion";
+import { Contacto } from "./components/contacto";
 // Cierro componentes
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -32,6 +35,9 @@ function App() {
           <Route exact path="/"  Component={MainTitle}/>
           <Route path="/sobreMi"  Component={AboutMe}/>
           <Route path="/portfolio"  Component={Portfolio}/>
+          <Route path="/skills"  Component={Skills}/>
+          <Route path="/educacion"  Component={Educacion}/>
+          <Route path="/contacto"  Component={Contacto}/>
         </Routes>
       </BrowserRouter>
       

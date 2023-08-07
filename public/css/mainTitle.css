@@ -67,7 +67,7 @@
     animation: movimiento 7s infinite;
 }
 .nameVuelta li{
-    background-image: linear-gradient(90deg, #ed0de2,#00dbde);
+    background-image: linear-gradient(90deg, #ff6c00,#fff900);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 0 5px;
@@ -161,7 +161,7 @@
   /* BOTON MAIN */
 .buttonMain {
     align-items: center;
-    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    background-image: linear-gradient(144deg,#fff900, #ff6c00 50%,#fff900);
     border: 0;
     border-radius: 8px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
@@ -330,6 +330,23 @@
     top: 90px;
     left: 1280px;
   }
+  .star-position7 {
+    top: 90px;
+    left: 1500px;
+  }
+  .star-position8 {
+    top: 90px;
+    left: 1780px;
+  }
+  .star-position9 {
+    top: 90px;
+    left: 2000px;
+  }
+  .star-position10 {
+    top: 90px;
+    left: 2250px;
+  }
+  
   
   .astronaut {
     width: 250px;
@@ -655,21 +672,18 @@
     .infoMain{
         flex-direction: column;
     }
-    .star-position6{
-        display: none;
-    }
-    .star-position5{
-        display: none;
-    }
-    .star-position4{
-        display: none;
-    }
-    .star-position3{
-        display: none;
-    }
+    .star-position10,
+    .star-position9,
+    .star-position8,
+    .star-position7,
+    .star-position6, 
+    .star-position5,
+    .star-position4,
+    .star-position3,
     .star-position2{
         display: none;
     }
+    
     .astronaut {
         width: 200px;
         height: 250px;
@@ -687,12 +701,15 @@
 }
 /* TABLET */
 @media (min-width:768px) and (max-width:1024px) {
-    .star-position6{
-        display: none;
-    }
-    .star-position5{
-        display: none;
-    }
+  .star-position10,
+  .star-position9,
+  .star-position8,
+  .star-position7,
+  .star-position6, 
+  .star-position5,
+  .star-position4{
+      display: none;
+  }
 }
 /* LAPTOP */
 @media (min-width:724px) and (max-width:1280px) {
@@ -721,6 +738,11 @@
     .imageTitle img{
         flex-basis: 579px;
     }
+    .star-position10,
+    .star-position9,
+    .star-position8,
+    .star-position7,
+    .star-position6, 
     .star-position5{
         display: none;
     }
@@ -728,6 +750,12 @@
 @media (min-width:1024px) and (max-width:1700px){
     .presentationContainer{
         margin-left: 8%;
+    }
+    .star-position10,
+    .star-position9,
+    .star-position8,
+    .star-position7{
+        display: none;
     }
 }
 

@@ -1,0 +1,34 @@
+.mainContainerSkills{
+    display: inline-block;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: start;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: #ff6c00;
+}
+.titleSkills{
+    font-size: 2rem;
+}
+.iconsSkills{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.divImgsSkills img{
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+}
+.divImgsSkills i{
+    width: 75px;
+    height: 75px;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.divSkills p{
+    color: white;
+}
+

@@ -12,5 +12,28 @@
 }
 
 .mainContainerProjects hr{
-    color: red;
+    color: #ff6c00;
+}
+.neon {
+    animation: neonAnim 2s alternate-reverse infinite;
+    background-image: linear-gradient(90deg, #fff900, #ff6c00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 5px;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+@keyframes neonAnim {
+from {
+    text-shadow:
+      0 0 0px #ff6c00,
+      0 0 5px #ff6c00,
+      0 0 10px #ff6c00;
+  }
+  to {
+    text-shadow:
+      0 0 0px #fff900,
+      0 0 5px #fff900,
+      0 0 10px #fff900;
+  }
 }
