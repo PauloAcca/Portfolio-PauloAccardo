@@ -42,23 +42,3 @@
 .divSkills p{
     color: white;
 }
-
-/* IMAGENES  */
-.github{
-    background-image: url(../img/icons/iconGitHub.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.git{
-    background-image: url(../img/icons/icongit.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.postman{
-    background-image: url(../img/icons/iconPostMan.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}

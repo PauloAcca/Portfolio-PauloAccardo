@@ -7,31 +7,31 @@ export const Skills = ()=>{
                 <p className='titleSkills'>Front end development</p>
                 <div className='iconsSkills'>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconHtml.png" alt="" /></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconHtml.png" alt="" /></div>
                         <p>Html</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconCss.png" alt="" /></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconCss.png" alt="" /></div>
                         <p>Css</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconJs.png" alt="" /></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconJs.png" alt="" /></div>
                         <p>Java Script</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconjquery.png" alt="" /></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconjquery.png" alt="" /></div>
                         <p>Jquery</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconReact.png" alt="" /></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconReact.png" alt="" /></div>
                         <p>React.js</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconRedux.png" alt="" /></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconRedux.png" alt="" /></div>
                         <p>Redux</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconBootStrap.png" alt="" /></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconBootStrap.png" alt="" /></div>
                         <p>BootStrap</p>
                     </div>
                 </div>
@@ -40,15 +40,15 @@ export const Skills = ()=>{
                 <p className='titleSkills'>Back end development</p>
                 <div className='iconsSkills'>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconNode.png" alt="" /></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconNode.png" alt="" /></div>
                         <p>Node.js</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconMySqlWorkBench.png" alt="" /></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconMySqlWorkBench.png" alt="" /></div>
                         <p>MySql</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconSequalize.png" alt="" /></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconSequalize.png" alt="" /></div>
                         <p>Sequalize</p>
                     </div>
                 </div>
@@ -57,15 +57,15 @@ export const Skills = ()=>{
                 <p className='titleSkills'>Tools</p>
                 <div className='iconsSkills'>
                     <div className='divSkills'>
-                        <div className='divImgsSkills github'></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconGitHub.png" alt="" /></div>
                         <p>GitHub</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills git'></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconGit.png" alt="" /></div>
                         <p>Git</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills postman'></div>
+                        <div className='divImgsSkills'><img src="../public/img/icons/iconPostMan.png" alt="" /></div>
                         <p>PostMan</p>
                     </div>
                 </div>
