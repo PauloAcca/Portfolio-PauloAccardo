@@ -57,33 +57,15 @@ export const Skills = ()=>{
                 <p className='titleSkills'>Tools</p>
                 <div className='iconsSkills'>
                     <div className='divSkills'>
-                        <div className='divImgsSkills' style={{
-                                backgroundImage: `url(${'../../public/img/icons/iconGitHub.png'})`,
-                                backgroundRepeat: "no-repeat",
-                                backgroundSize: "cover",
-                                backgroundPosition: "center"
-                            }}>
-                        </div>
+                        <div className='divImgsSkills github'></div>
                         <p>GitHub</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills' style={{
-                                backgroundImage: `url(${'../../public/img/icons/icongit.png'})`,
-                                backgroundRepeat: "no-repeat",
-                                backgroundSize: "cover",
-                                backgroundPosition: "center"
-                            }}>
-                        </div>
+                        <div className='divImgsSkills git'></div>
                         <p>Git</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills' style={{
-                                backgroundImage: `url(${'../../public/img/icons/iconPostMan.png'})`,
-                                backgroundRepeat: "no-repeat",
-                                backgroundSize: "cover",
-                                backgroundPosition: "center"
-                            }}>
-                        </div>
+                        <div className='divImgsSkills postman'></div>
                         <p>PostMan</p>
                     </div>
                 </div>
