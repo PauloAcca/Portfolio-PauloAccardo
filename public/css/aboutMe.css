@@ -25,8 +25,6 @@
 
 .card {
     --background: linear-gradient(-45deg, #ff6c00 0%, #fff900 100% );
-    max-width: 400px;
-    max-height: 500px;
     padding: 7px;
     border-radius: 1rem;
     overflow: visible;
@@ -42,7 +40,6 @@
     background-size: cover;
     height: 500px;
     width: 400px;
-    border-radius: 1rem;
     }
    
    .card::after {

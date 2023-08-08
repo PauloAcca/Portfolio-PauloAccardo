@@ -20,7 +20,9 @@ export const AboutMe = ()=>{
                 
                 <div className='containerImg'>
                     <div className="card">  
-                        <div className='img-fluid imgPerfil'></div>  
+                        <div className='img-fluid'>
+                            <div className='imgPerfil'></div>
+                        </div>  
                     </div>
                 </div>
             </div>
