@@ -57,15 +57,33 @@ export const Skills = ()=>{
                 <p className='titleSkills'>Tools</p>
                 <div className='iconsSkills'>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconGitHub.png" alt="" /></div>
+                        <div className='divImgsSkills' style={{
+                                backgroundImage: `url(${'../../public/img/icons/iconGitHub.png'})`,
+                                backgroundRepeat: "no-repeat",
+                                backgroundSize: "cover",
+                                backgroundPosition: "center"
+                            }}>
+                        </div>
                         <p>GitHub</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills'><img src="../../public/img/icons/iconGit.png" alt="" /></div>
+                        <div className='divImgsSkills' style={{
+                                backgroundImage: `url(${'../../public/img/icons/icongit.png'})`,
+                                backgroundRepeat: "no-repeat",
+                                backgroundSize: "cover",
+                                backgroundPosition: "center"
+                            }}>
+                        </div>
                         <p>Git</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills post'></div>
+                        <div className='divImgsSkills' style={{
+                                backgroundImage: `url(${'../../public/img/icons/iconPostMan.png'})`,
+                                backgroundRepeat: "no-repeat",
+                                backgroundSize: "cover",
+                                backgroundPosition: "center"
+                            }}>
+                        </div>
                         <p>PostMan</p>
                     </div>
                 </div>
@@ -73,23 +91,23 @@ export const Skills = ()=>{
             <div className='containerSkills'>
                 <p className='titleSkills'>Soft Skills</p>
                 <div className='iconsSkills'>
-                    <div className='divSkills'>
+                    <div className='divSkills icons'>
                         <div className='divImgsSkills'><i class="fas fa-phone-alt text-warning"></i></div>
                         <p>Comunicación efectiva</p>
                     </div>
-                    <div className='divSkills'>
+                    <div className='divSkills icons'>
                         <div className='divImgsSkills'><i class="fas fa-users text-warning"></i></div>
                         <p>Trabajo en equipo</p>
                     </div>
-                    <div className='divSkills'>
+                    <div className='divSkills icons'>
                         <div className='divImgsSkills'><i class="fas fa-user-cog text-warning"></i></div>
                         <p>Resolución de problemas</p>
                     </div>
-                    <div className='divSkills'>
+                    <div className='divSkills icons'>
                         <div className='divImgsSkills'><i class="fas fa-user-check text-warning"></i></div>
                         <p>Adaptabilidad </p>
                     </div>
-                    <div className='divSkills'>
+                    <div className='divSkills icons'>
                         <div className='divImgsSkills'><i class="far fa-clock text-warning"></i></div>
                         <p>Gestión del tiempo</p>
                     </div>
