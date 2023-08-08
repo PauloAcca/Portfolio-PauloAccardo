@@ -67,6 +67,9 @@ html{
 .dark-mode img{
     filter: invert(100%);
 }
+.dark-mode .imgPerfil{
+  filter: invert(100%);
+}
 .dark-mode .containerAstronauta{
   filter: invert(100%);
 }

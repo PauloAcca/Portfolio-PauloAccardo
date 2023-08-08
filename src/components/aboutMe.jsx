@@ -19,10 +19,8 @@ export const AboutMe = ()=>{
                 </div>
                 
                 <div className='containerImg'>
-                    <div className="card">
-                        <div className="card-info">
-                            <img className='img-fluid' src="https://github.com/PauloAcca/Portfolio-PauloAccardo/blob/main/public/img/Imagen-Perfil.png" alt=""/>
-                        </div>
+                    <div className="card">  
+                        <div className='img-fluid imgPerfil'></div>  
                     </div>
                 </div>
             </div>

@@ -42,3 +42,83 @@
 .divSkills p{
     color: white;
 }
+
+/* IMAGENES  */
+.github{
+    background-image: url(../img/icons/iconGitHub.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.git{
+    background-image: url(../img/icons/iconGit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.postman{
+    background-image: url(../img/icons/iconPostMan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bootstrap{
+    background-image: url(../img/icons/iconBootStrap.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.css{
+    background-image: url(../img/icons/iconCss.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.html{
+    background-image: url(../img/icons/iconHtml.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jquery{
+    background-image: url(../img/icons/iconjquery.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.javascript{
+    background-image: url(../img/icons/iconJs.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mysql{
+    background-image: url(../img/icons/iconMySqlWorkBench.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nodejs{
+    background-image: url(../img/icons/iconNode.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.react{
+    background-image: url(../img/icons/iconReact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.redux{
+    background-image: url(../img/icons/iconRedux.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sequalize{
+    background-image: url(../img/icons/iconSequalize.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

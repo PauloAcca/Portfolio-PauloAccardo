@@ -22,10 +22,12 @@
     font-weight:bold;
 }
 /* PHOTO CARD */ 
+
 .card {
     --background: linear-gradient(-45deg, #ff6c00 0%, #fff900 100% );
-    height: 254px;
-    padding: 5px;
+    max-width: 400px;
+    max-height: 500px;
+    padding: 7px;
     border-radius: 1rem;
     overflow: visible;
     background:#ff6c00;
@@ -33,6 +35,15 @@
     position: relative;
     z-index: 1;
    }
+   .imgPerfil{
+    background-image: url(../img/Imagen-Perfil.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    border-radius: 1rem;
+    }
    
    .card::after {
     position: absolute;
@@ -50,23 +61,6 @@
     transition: opacity .5s;
    }
    
-   .card-info {
-    --color: #181818;
-    background: var(--color);
-    color: var(--color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-    border-radius: .7rem;
-   }
-   
-   .card .title {
-    font-weight: bold;
-    letter-spacing: .1em;
-   }
    
    /*Hover*/
    .card:hover::after {
@@ -85,9 +79,14 @@
         flex-direction: column;
         margin-top: 90px;
     }
+    .imgPerfil{
+        height: 375px;
+        width: 300px;
+    }
 }
 @media (min-width:1024px) and (max-width:1628px) {
     .containerAbout{
         margin-left: 16%;
     }
 }
+
