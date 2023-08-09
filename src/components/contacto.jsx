@@ -38,6 +38,7 @@ export const Contacto = ()=>{
                 </div>
             </div>
             <div>
+                <p className='h3 text-light'>Contact Me!</p>
                 <Formulario/>
             </div>
         </section>
