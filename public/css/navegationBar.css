@@ -70,6 +70,9 @@ html{
 .dark-mode .imgPerfil{
   filter: invert(100%);
 }
+.dark-mode .divImgsSkills{
+  filter: invert(100%);
+}
 .dark-mode .containerAstronauta{
   filter: invert(100%);
 }

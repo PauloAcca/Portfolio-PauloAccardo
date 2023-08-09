@@ -23,7 +23,7 @@ export const Skills = ()=>{
                         <p>Jquery</p>
                     </div>
                     <div className='divSkills'>
-                        <div className='divImgsSkills reacjs'></div>
+                        <div className='divImgsSkills reactjs'></div>
                         <p>React.js</p>
                     </div>
                     <div className='divSkills'>
