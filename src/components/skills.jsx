@@ -74,23 +74,23 @@ export const Skills = ()=>{
                 <p className='titleSkills'>Soft Skills</p>
                 <div className='iconsSkills'>
                     <div className='divSkills icons'>
-                        <div className='divImgsSkills'><i class="fas fa-phone-alt text-warning"></i></div>
+                        <div className='divImgsSkills'><i className="fas fa-phone-alt text-warning"></i></div>
                         <p>Comunicación efectiva</p>
                     </div>
                     <div className='divSkills icons'>
-                        <div className='divImgsSkills'><i class="fas fa-users text-warning"></i></div>
+                        <div className='divImgsSkills'><i className="fas fa-users text-warning"></i></div>
                         <p>Trabajo en equipo</p>
                     </div>
                     <div className='divSkills icons'>
-                        <div className='divImgsSkills'><i class="fas fa-user-cog text-warning"></i></div>
+                        <div className='divImgsSkills'><i className="fas fa-user-cog text-warning"></i></div>
                         <p>Resolución de problemas</p>
                     </div>
                     <div className='divSkills icons'>
-                        <div className='divImgsSkills'><i class="fas fa-user-check text-warning"></i></div>
+                        <div className='divImgsSkills'><i className="fas fa-user-check text-warning"></i></div>
                         <p>Adaptabilidad </p>
                     </div>
                     <div className='divSkills icons'>
-                        <div className='divImgsSkills'><i class="far fa-clock text-warning"></i></div>
+                        <div className='divImgsSkills'><i className="far fa-clock text-warning"></i></div>
                         <p>Gestión del tiempo</p>
                     </div>
                 </div>

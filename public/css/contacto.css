@@ -155,3 +155,9 @@
     text-anchor: 0;
     mix-blend-mode: normal;
   }
+
+  @media (max-width:758px) {
+    .mainContainerContacto{
+      margin-top: 80px;
+    }
+  }

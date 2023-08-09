@@ -15,7 +15,7 @@
 .containerIcons div{
   margin-right: 10px;
   margin-left: 10px;
-  height: 20px;
+  height: 40px;
 }
 /* CARD */
 .cardProject {
@@ -116,6 +116,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 10px;
-  width: 20px;
+  width: 40px;
 }
+
+/* IMAGENES PROJECTOS */
+
+.gangapadel{
+  background-image: url(../img/paginaDh.jpg);
+}
+
+
 

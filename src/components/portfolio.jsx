@@ -8,7 +8,7 @@ export const Portfolio = ()=>{
 
     return (
         <section className='mainContainerProjects'>
-            <div class="neon">
+            <div className="neon">
                 My Projects
             </div>
             <div>

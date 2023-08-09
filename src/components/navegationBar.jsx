@@ -35,14 +35,14 @@ export const NavegationBar = () =>{
             <li className='linkInicio'>
               <Link to='/'>
                 <i className="fas fa-home fa-lg"></i>
-                <span className='textNav'>Inicio</span>
+                <span className='textNav'>Home</span>
               </Link>
             </li>
 
             <li className=''>
               <Link to='/sobreMi'>
                 <i className="fas fa-info fa-lg"></i>
-                <span className='textNav'>Sobre Mi</span>
+                <span className='textNav'>About Me</span>
               </Link>
             </li>
 
@@ -63,14 +63,14 @@ export const NavegationBar = () =>{
             <li className=''>
               <Link to='/educacion'>
                 <i className="fas fa-graduation-cap fa-lg"></i>
-                <span className='textNav'>Educacion</span>
+                <span className='textNav'>Education</span>
               </Link>
             </li>
 
             <li className=''>
               <Link to='/contacto'>
                 <i className="fas fa-phone fa-lg"></i>
-                <span className='textNav'>Contacto</span>
+                <span className='textNav'>Contact</span>
               </Link>
             </li>
 
