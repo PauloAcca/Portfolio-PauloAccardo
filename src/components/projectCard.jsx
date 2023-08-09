@@ -7,13 +7,13 @@ export const ProjectCard = ()=>{
         <div className='container containerCards'>
            {projects.map(project => (
                <div class="cardProject" key = {project.id}>
-                    <div class="img"><img className='img-fluid imageCard' src={project.img} alt="" /></div>
+                    <div class="img"><div className='imageCard' style={{ backgroundImage: `url(${project.img})` }} alt="" /></div>
                     <span>{project.title}</span>
                     <p class="info">{project.description}</p>
                     <div class="share">
                         <div className='container containerIcons'>
                             {project.tec.map(tecnos => (
-                                <div><img className='img-fluid iconProject' src={tecnos} alt="" /></div>
+                                <div className='img-fluid iconProject' style={{ backgroundImage: `url(${tecnos})` }}></div>
                             ))}
                         </div>
                     </div>
