@@ -83,6 +83,10 @@
   color: rgb(0, 0, 0);
   transition: .4s ease-in-out;
 }
+.cardProject button a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
 
 .cardProject button:hover {
   background: #ff6c00;
@@ -123,6 +127,10 @@
 
 .gangapadel{
   background-image: url(../img/paginaDh.jpg);
+}
+
+.blogFilter{
+  background-image: url(../img/BlogFilter.jpg);
 }
 
 

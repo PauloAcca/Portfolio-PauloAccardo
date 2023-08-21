@@ -16,23 +16,9 @@ const initialState = [
     },
     {
       id: 2,
-      title: 'Proyecto 2',
-      img:'../../public/img/paginaZapas.jpg',
-      description: 'Descripción del proyecto 2',
-      tec:[]
-    },
-    {
-      id: 2,
-      title: 'Proyecto 2',
-      img:'../../public/img/paginaZapas.jpg',
-      description: 'Descripción del proyecto 2',
-      tec:[]
-    },
-    {
-      id: 2,
-      title: 'Proyecto 2',
-      img:'../../public/img/paginaZapas.jpg',
-      description: 'Descripción del proyecto 2',
+      title: 'Blog con Filtro',
+      img:'public/img/BlogFilter.jpg',
+      description: 'Blog creado con filtro, creado con React, Redux y bootstrap',
       tec:[]
     }
   ];
